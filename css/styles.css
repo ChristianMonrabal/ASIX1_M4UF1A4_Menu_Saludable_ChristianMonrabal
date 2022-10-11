@@ -1,0 +1,136 @@
+/* Pagina Principal */
+
+#titulo {
+    text-align: center;
+    font-size: 50px;
+    padding-top: 3%;
+}
+
+
+.imagen {
+    height: 300px;
+    width: 300px;
+}
+
+a {
+    height: 300px;
+    width: 300px;
+}
+
+img {
+    height: 300px;
+    width: 300px;   
+}
+
+.pagprincipal {
+    text-align: center;
+}
+
+body {
+    background-color: aqua;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    padding-left: 2cm;
+    padding-right: 2cm;
+}
+
+.iconoleft {
+    text-align: left;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+    font-size: 50px;
+    padding-top: 3%;
+}
+
+.listaplatos {
+    padding-top: 10%;
+}
+
+.flex {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+/*Plato 1 */
+
+.plato1 {
+    font-size: 30px;
+}
+
+.ingredientes {
+    text-align: center;
+}
+
+.preparacion {
+    text-align: center;
+}
+
+/*Plato 3 */
+
+.postre {
+    font-size: 30px;
+}
+
+.indice {
+    font-size: 10px;
+}
+
+/*Columnas */
+/* Clear floats after the columns */
+
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+
+/* Diseño de columnas */
+
+.column-1 {
+    width: 100%;
+    float: left;
+    margin-top: -4px;
+}
+
+.title2 {
+    background-color: lightblue;
+    margin-top: -4px;
+}
+
+.column-2 {
+    width: 50%;
+    float: left;
+}
+
+.column-3 {
+    width: 33.33%;
+    float: left;
+    padding-top: 3%;
+}
+
+.column-4 {
+    width: 25%;
+    float: left;
+}
+
+.column-5 {
+    width: 20%;
+    float: left;
+}
+
+.column-6 {
+    width: 16.66%;
+    float: left;
+}
+
+.column-75 {
+    width: 75%;
+    float: left;
+}
